@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style-type: none;
+        }
+        ul a{
+            font-size: 20px;
+        }
+
+        .c_1 {width: 8.33%; }
+        .c_2 {width: 16.66%; float: left;}
+        .c_3 {width: 25%; float: left;}
+        .c_4 {width: 33.33%;float: left; }
+        .c_5 {width: 41.66%;float: left; }
+        .c_6 {width: 50%; float: left;}
+        .c_7 {width: 58.33%; float: left;}
+        .c_8 {width: 66.66%; float: left;}
+        .c_9 {width: 75%;float: left; }
+        .c_10 {width: 83.33%;float: left; }
+        .c_11 {width: 91.66%; float: left;}
+        .c_12 {width: 100%; float: left;}
+
+        @media only screen and (max-width:768px) {
+            [class*="c"]{
+                width:100%;
+            }
+
+        }
+
+        #wrap{
+            width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        header{
+
+            background-color: #00ff90;
+        }
+        header h1{
+            padding: 10px;
+        }
+
+        #container{
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        nav ul{
+            text-align: center;
+            margin-right: 5px;
+
+        }
+        nav li{
+            margin-left:5px;
+            margin-right:5px;
+            background-color: purple;
+            padding: 5px 0 5px 0;
+            margin-bottom: 5px;
+
+        }
+
+        article h1{
+            margin-bottom: 10px;
+        }
+
+        a:hover, a:active, a:visited, a:link{
+            text-decoration: none;
+            color: black;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <header class="c_12">
+        <h1>루바토의 사진 아카데미</h1>
+    </header>
+    <div id="container" class="c_12">
+        <nav class="c_3">
+            <ul>
+                <li><a href="#">사진의 역사</a></li>
+                <li><a href="#">노줄이란?</a></li>
+                <li><a href="#">카메라 동작 모드</a></li>
+                <li><a href="#">렌즈의 종류</a></li>
+            </ul>
+        </nav>
+        <article class="c_9">
+            <h1>사진의 역사</h1>
+            <p>Lorem ipsum dolor sit amet, eum tota magna eu, modus splendide cu vim, sea vocibus senserit conclusionemque te. Cu error tacimates mei. Suscipit ullamcorper cu ius. Et affert laudem gloriatur sed. Quidam epicuri ponderum ut sit, vix ex nisl oportere euripidis. Ei nam putent vivendo voluptatum, est ut nonumy omnesque, no graece splendide vim.
+            </p>
+            <p>
+                Et sea splendide voluptatibus, vix ei copiosae maiestatis, no virtute deseruisse eam. At quis dicit ubique est, ei putent aliquam lobortis est, sed id primis minimum. Pro ad liber paulo persecuti, at pri habeo graeci ceteros. Eos ponderum laboramus consetetur id, duo rebum evertitur ei. Duo ad dicam ocurreret, probo euripidis mei eu, an augue iudico imperdiet his.
+            </p>
+            <p>
+                Id eos elit nominati molestiae, semper moderatius id has, in duo populo meliore singulis. His ad oporteat ocurreret. Eu est nemore vivendo, ei vix aperiri labitur tractatos. Quis affert lucilius pri eu, an habeo error lucilius mei. Pri diceret debitis in, sea delicata intellegebat et.
+            </p>
+            <p>
+                Fugit luptatum praesent quo ex. Ad unum ignota graeco ius, nonumes nostrum referrentur mei ut. Dolore ancillae definitiones sit eu. Velit salutandi imperdiet pri cu. His appareat placerat inciderint in, vix in putent adversarium.
+            </p>
+            <p>
+                Has purto denique delicatissimi at. Eam ea scriptorem concludaturque. Sit duis consetetur an. Nec utroque pericula ex, vel id convenire definitionem, his rationibus intellegam id. Everti platonem no sed.
+            </p>
+
+        </article>
+    </div>
+    <footer class="c_12">(주)레이아웃&nbsp;practice</footer>
+</div>
+</body>
+</html>
